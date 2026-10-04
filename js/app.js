@@ -1,16 +1,7 @@
 import { db } from "./firebase.js";
 import { collection, getDocs } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-const MI_EQUIPO = "VERGOSOS C.F";
+import { MI_EQUIPO, idPartido, cargarCalendario } from "./comun.js";
 //
-
-async function cargarCalendario(){
-  const respuesta =await fetch ("data/calendario.json");
-  const datos = await respuesta.json();
-  return datos;
-}
-function idPartido(jornada,partido){
-  return `J${jornada} ${partido.local} vs ${partido.visitante}`;
-}
 async function cargarResultados (){
   const resultados={};
   const consulta = await getDocs(collection(db,"resultados"));
