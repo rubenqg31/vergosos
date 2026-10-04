@@ -1,4 +1,4 @@
-const MI_EQUIPO = "VERGOSOS C.F.";
+const MI_EQUIPO = "VERGOSOS C.F";
 //
 async function cargarCalendario(){
   const respuesta =await fetch ("data/calendario.json");
