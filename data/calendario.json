@@ -1,0 +1,1128 @@
+{
+  "liga": "Ayto. Alcobendas Fútbol 7, 2ª Aficionados G2",
+  "temporada": "2026-2027",
+  "miEquipo": "VERGOSOS C.F",
+  "jornadas": [
+    {
+      "jornada": 1,
+      "fecha": "2026-10-02",
+      "descansa": "DRINK TEAM F.C.",
+      "partidos": [
+        {
+          "local": "C.D. MONTEJO",
+          "visitante": "FRENAHAYBACHE F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-10-02T20:00"
+        },
+        {
+          "local": "S.S.C. CARBONARA",
+          "visitante": "LA GANGA C.F.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-10-02T21:00"
+        },
+        {
+          "local": "PRIDE OF SPARTA",
+          "visitante": "PERFUMERIA OSCAR",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-10-02T22:00"
+        },
+        {
+          "local": "PIN PALS",
+          "visitante": "PITS",
+          "campo": null,
+          "fechaHora": "2027-02-12",
+          "aplazado": true
+        },
+        {
+          "local": "MMCHC FC",
+          "visitante": "REPTILIANS F.C.",
+          "campo": null,
+          "fechaHora": "2027-02-12",
+          "aplazado": true
+        },
+        {
+          "local": "HATHOR C.F",
+          "visitante": "VERGOSOS C.F",
+          "campo": null,
+          "fechaHora": "2027-02-12",
+          "aplazado": true
+        }
+      ]
+    },
+    {
+      "jornada": 2,
+      "fecha": "2026-10-16",
+      "descansa": "FRENAHAYBACHE F.C.",
+      "partidos": [
+        {
+          "local": "PERFUMERIA OSCAR",
+          "visitante": "S.S.C. CARBONARA",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-10-16T20:00"
+        },
+        {
+          "local": "PITS",
+          "visitante": "PRIDE OF SPARTA",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-10-16T21:00"
+        },
+        {
+          "local": "LA GANGA C.F.",
+          "visitante": "C.D. MONTEJO",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-10-16T22:00"
+        },
+        {
+          "local": "REPTILIANS F.C.",
+          "visitante": "PIN PALS",
+          "campo": "NAVARRA 1-1 (HA)",
+          "fechaHora": "2026-10-19T22:00"
+        },
+        {
+          "local": "VERGOSOS C.F",
+          "visitante": "MMCHC FC",
+          "campo": "NAVARRA 1-2 (HA)",
+          "fechaHora": "2026-10-19T22:00"
+        },
+        {
+          "local": "DRINK TEAM F.C.",
+          "visitante": "HATHOR C.F",
+          "campo": "NAVARRA 1-2 (HA)",
+          "fechaHora": "2026-10-21T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 3,
+      "fecha": "2026-10-23",
+      "descansa": "HATHOR C.F",
+      "partidos": [
+        {
+          "local": "PRIDE OF SPARTA",
+          "visitante": "REPTILIANS F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-10-23T20:00"
+        },
+        {
+          "local": "C.D. MONTEJO",
+          "visitante": "PERFUMERIA OSCAR",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-10-23T21:00"
+        },
+        {
+          "local": "S.S.C. CARBONARA",
+          "visitante": "PITS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-10-23T22:00"
+        },
+        {
+          "local": "FRENAHAYBACHE F.C.",
+          "visitante": "LA GANGA C.F.",
+          "campo": "NAVARRA 1-1 (HA)",
+          "fechaHora": "2026-10-26T21:00"
+        },
+        {
+          "local": "PIN PALS",
+          "visitante": "VERGOSOS C.F",
+          "campo": "NAVARRA 1-1 (HA)",
+          "fechaHora": "2026-10-26T22:00"
+        },
+        {
+          "local": "MMCHC FC",
+          "visitante": "DRINK TEAM F.C.",
+          "campo": "NAVARRA 1-2 (HA)",
+          "fechaHora": "2026-10-26T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 4,
+      "fecha": "2026-11-06",
+      "descansa": "LA GANGA C.F.",
+      "partidos": [
+        {
+          "local": "REPTILIANS F.C.",
+          "visitante": "S.S.C. CARBONARA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-11-06T20:00"
+        },
+        {
+          "local": "DRINK TEAM F.C.",
+          "visitante": "PIN PALS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-11-06T20:00"
+        },
+        {
+          "local": "PERFUMERIA OSCAR",
+          "visitante": "FRENAHAYBACHE F.C.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-11-06T21:00"
+        },
+        {
+          "local": "HATHOR C.F",
+          "visitante": "MMCHC FC",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-11-06T21:00"
+        },
+        {
+          "local": "PITS",
+          "visitante": "C.D. MONTEJO",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-11-06T22:00"
+        },
+        {
+          "local": "VERGOSOS C.F",
+          "visitante": "PRIDE OF SPARTA",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-11-06T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 5,
+      "fecha": "2026-11-13",
+      "descansa": "MMCHC FC",
+      "partidos": [
+        {
+          "local": "FRENAHAYBACHE F.C.",
+          "visitante": "PITS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-11-13T20:00"
+        },
+        {
+          "local": "PRIDE OF SPARTA",
+          "visitante": "DRINK TEAM F.C.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-11-13T20:00"
+        },
+        {
+          "local": "C.D. MONTEJO",
+          "visitante": "REPTILIANS F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-11-13T21:00"
+        },
+        {
+          "local": "S.S.C. CARBONARA",
+          "visitante": "VERGOSOS C.F",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-11-13T21:00"
+        },
+        {
+          "local": "LA GANGA C.F.",
+          "visitante": "PERFUMERIA OSCAR",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-11-13T22:00"
+        },
+        {
+          "local": "PIN PALS",
+          "visitante": "HATHOR C.F",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-11-13T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 6,
+      "fecha": "2026-11-20",
+      "descansa": "PERFUMERIA OSCAR",
+      "partidos": [
+        {
+          "local": "VERGOSOS C.F",
+          "visitante": "C.D. MONTEJO",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-11-20T20:00"
+        },
+        {
+          "local": "HATHOR C.F",
+          "visitante": "PRIDE OF SPARTA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-11-20T20:00"
+        },
+        {
+          "local": "PITS",
+          "visitante": "LA GANGA C.F.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-11-20T21:00"
+        },
+        {
+          "local": "DRINK TEAM F.C.",
+          "visitante": "S.S.C. CARBONARA",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-11-20T21:00"
+        },
+        {
+          "local": "REPTILIANS F.C.",
+          "visitante": "FRENAHAYBACHE F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-11-20T22:00"
+        },
+        {
+          "local": "MMCHC FC",
+          "visitante": "PIN PALS",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-11-20T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 7,
+      "fecha": "2026-11-27",
+      "descansa": "PIN PALS",
+      "partidos": [
+        {
+          "local": "PERFUMERIA OSCAR",
+          "visitante": "PITS",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-11-27T20:00"
+        },
+        {
+          "local": "LA GANGA C.F.",
+          "visitante": "REPTILIANS F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-11-27T20:00"
+        },
+        {
+          "local": "FRENAHAYBACHE F.C.",
+          "visitante": "VERGOSOS C.F",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-11-27T21:00"
+        },
+        {
+          "local": "PRIDE OF SPARTA",
+          "visitante": "MMCHC FC",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-11-27T21:00"
+        },
+        {
+          "local": "C.D. MONTEJO",
+          "visitante": "DRINK TEAM F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-11-27T22:00"
+        },
+        {
+          "local": "S.S.C. CARBONARA",
+          "visitante": "HATHOR C.F",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-11-27T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 8,
+      "fecha": "2026-12-11",
+      "descansa": "PITS",
+      "partidos": [
+        {
+          "local": "HATHOR C.F",
+          "visitante": "C.D. MONTEJO",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-12-11T20:00"
+        },
+        {
+          "local": "MMCHC FC",
+          "visitante": "S.S.C. CARBONARA",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-12-11T20:00"
+        },
+        {
+          "local": "VERGOSOS C.F",
+          "visitante": "LA GANGA C.F.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-12-11T21:00"
+        },
+        {
+          "local": "PIN PALS",
+          "visitante": "PRIDE OF SPARTA",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-12-11T21:00"
+        },
+        {
+          "local": "REPTILIANS F.C.",
+          "visitante": "PERFUMERIA OSCAR",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-12-11T22:00"
+        },
+        {
+          "local": "DRINK TEAM F.C.",
+          "visitante": "FRENAHAYBACHE F.C.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-12-11T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 9,
+      "fecha": "2026-12-18",
+      "descansa": "PRIDE OF SPARTA",
+      "partidos": [
+        {
+          "local": "PERFUMERIA OSCAR",
+          "visitante": "VERGOSOS C.F",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-12-18T20:00"
+        },
+        {
+          "local": "C.D. MONTEJO",
+          "visitante": "MMCHC FC",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-12-18T20:00"
+        },
+        {
+          "local": "PITS",
+          "visitante": "REPTILIANS F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-12-18T21:00"
+        },
+        {
+          "local": "FRENAHAYBACHE F.C.",
+          "visitante": "HATHOR C.F",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-12-18T21:00"
+        },
+        {
+          "local": "LA GANGA C.F.",
+          "visitante": "DRINK TEAM F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2026-12-18T22:00"
+        },
+        {
+          "local": "S.S.C. CARBONARA",
+          "visitante": "PIN PALS",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2026-12-18T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 10,
+      "fecha": "2027-01-08",
+      "descansa": "REPTILIANS F.C.",
+      "partidos": [
+        {
+          "local": "HATHOR C.F",
+          "visitante": "LA GANGA C.F.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-01-08T20:00"
+        },
+        {
+          "local": "PRIDE OF SPARTA",
+          "visitante": "S.S.C. CARBONARA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-01-08T20:00"
+        },
+        {
+          "local": "DRINK TEAM F.C.",
+          "visitante": "PERFUMERIA OSCAR",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-01-08T21:00"
+        },
+        {
+          "local": "PIN PALS",
+          "visitante": "C.D. MONTEJO",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-01-08T21:00"
+        },
+        {
+          "local": "VERGOSOS C.F",
+          "visitante": "PITS",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-01-08T22:00"
+        },
+        {
+          "local": "MMCHC FC",
+          "visitante": "FRENAHAYBACHE F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-01-08T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 11,
+      "fecha": "2027-01-15",
+      "descansa": "S.S.C. CARBONARA",
+      "partidos": [
+        {
+          "local": "REPTILIANS F.C.",
+          "visitante": "VERGOSOS C.F",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-01-15T20:00"
+        },
+        {
+          "local": "PITS",
+          "visitante": "DRINK TEAM F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-01-15T20:00"
+        },
+        {
+          "local": "LA GANGA C.F.",
+          "visitante": "MMCHC FC",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-01-15T21:00"
+        },
+        {
+          "local": "FRENAHAYBACHE F.C.",
+          "visitante": "PIN PALS",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-01-15T21:00"
+        },
+        {
+          "local": "PERFUMERIA OSCAR",
+          "visitante": "HATHOR C.F",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-01-15T22:00"
+        },
+        {
+          "local": "C.D. MONTEJO",
+          "visitante": "PRIDE OF SPARTA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-01-15T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 12,
+      "fecha": "2027-01-22",
+      "descansa": "VERGOSOS C.F",
+      "partidos": [
+        {
+          "local": "HATHOR C.F",
+          "visitante": "PITS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-01-22T20:00"
+        },
+        {
+          "local": "PIN PALS",
+          "visitante": "LA GANGA C.F.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-01-22T20:00"
+        },
+        {
+          "local": "DRINK TEAM F.C.",
+          "visitante": "REPTILIANS F.C.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-01-22T21:00"
+        },
+        {
+          "local": "MMCHC FC",
+          "visitante": "PERFUMERIA OSCAR",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-01-22T21:00"
+        },
+        {
+          "local": "PRIDE OF SPARTA",
+          "visitante": "FRENAHAYBACHE F.C.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-01-22T22:00"
+        },
+        {
+          "local": "S.S.C. CARBONARA",
+          "visitante": "C.D. MONTEJO",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-01-22T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 13,
+      "fecha": "2027-01-29",
+      "descansa": "C.D. MONTEJO",
+      "partidos": [
+        {
+          "local": "PERFUMERIA OSCAR",
+          "visitante": "PIN PALS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-01-29T20:00"
+        },
+        {
+          "local": "FRENAHAYBACHE F.C.",
+          "visitante": "S.S.C. CARBONARA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-01-29T20:00"
+        },
+        {
+          "local": "VERGOSOS C.F",
+          "visitante": "DRINK TEAM F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-01-29T21:00"
+        },
+        {
+          "local": "LA GANGA C.F.",
+          "visitante": "PRIDE OF SPARTA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-01-29T21:00"
+        },
+        {
+          "local": "REPTILIANS F.C.",
+          "visitante": "HATHOR C.F",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-01-29T22:00"
+        },
+        {
+          "local": "PITS",
+          "visitante": "MMCHC FC",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-01-29T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 14,
+      "fecha": "2027-02-05",
+      "descansa": "DRINK TEAM F.C.",
+      "partidos": [
+        {
+          "local": "REPTILIANS F.C.",
+          "visitante": "MMCHC FC",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-02-05T20:00"
+        },
+        {
+          "local": "VERGOSOS C.F",
+          "visitante": "HATHOR C.F",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-02-05T20:00"
+        },
+        {
+          "local": "FRENAHAYBACHE F.C.",
+          "visitante": "C.D. MONTEJO",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-02-05T21:00"
+        },
+        {
+          "local": "PERFUMERIA OSCAR",
+          "visitante": "PRIDE OF SPARTA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-02-05T21:00"
+        },
+        {
+          "local": "LA GANGA C.F.",
+          "visitante": "S.S.C. CARBONARA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-02-05T22:00"
+        },
+        {
+          "local": "PITS",
+          "visitante": "PIN PALS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-02-05T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 15,
+      "fecha": "2027-02-19",
+      "descansa": "FRENAHAYBACHE F.C.",
+      "partidos": [
+        {
+          "local": "C.D. MONTEJO",
+          "visitante": "LA GANGA C.F.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-02-19T20:00"
+        },
+        {
+          "local": "HATHOR C.F",
+          "visitante": "DRINK TEAM F.C.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-02-19T20:00"
+        },
+        {
+          "local": "S.S.C. CARBONARA",
+          "visitante": "PERFUMERIA OSCAR",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-02-19T21:00"
+        },
+        {
+          "local": "PIN PALS",
+          "visitante": "REPTILIANS F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-02-19T21:00"
+        },
+        {
+          "local": "PRIDE OF SPARTA",
+          "visitante": "PITS",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-02-19T22:00"
+        },
+        {
+          "local": "MMCHC FC",
+          "visitante": "VERGOSOS C.F",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-02-19T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 16,
+      "fecha": "2027-02-26",
+      "descansa": "HATHOR C.F",
+      "partidos": [
+        {
+          "local": "PERFUMERIA OSCAR",
+          "visitante": "C.D. MONTEJO",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-02-26T20:00"
+        },
+        {
+          "local": "REPTILIANS F.C.",
+          "visitante": "PRIDE OF SPARTA",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-02-26T20:00"
+        },
+        {
+          "local": "LA GANGA C.F.",
+          "visitante": "FRENAHAYBACHE F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-02-26T21:00"
+        },
+        {
+          "local": "PITS",
+          "visitante": "S.S.C. CARBONARA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-02-26T21:00"
+        },
+        {
+          "local": "VERGOSOS C.F",
+          "visitante": "PIN PALS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-02-26T22:00"
+        },
+        {
+          "local": "DRINK TEAM F.C.",
+          "visitante": "MMCHC FC",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-02-26T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 17,
+      "fecha": "2027-03-05",
+      "descansa": "LA GANGA C.F.",
+      "partidos": [
+        {
+          "local": "PRIDE OF SPARTA",
+          "visitante": "VERGOSOS C.F",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-03-05T20:00"
+        },
+        {
+          "local": "PIN PALS",
+          "visitante": "DRINK TEAM F.C.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-03-05T20:00"
+        },
+        {
+          "local": "C.D. MONTEJO",
+          "visitante": "PITS",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-03-05T21:00"
+        },
+        {
+          "local": "MMCHC FC",
+          "visitante": "HATHOR C.F",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-03-05T21:00"
+        },
+        {
+          "local": "FRENAHAYBACHE F.C.",
+          "visitante": "PERFUMERIA OSCAR",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-03-05T22:00"
+        },
+        {
+          "local": "S.S.C. CARBONARA",
+          "visitante": "REPTILIANS F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-03-05T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 18,
+      "fecha": "2027-03-12",
+      "descansa": "MMCHC FC",
+      "partidos": [
+        {
+          "local": "PERFUMERIA OSCAR",
+          "visitante": "LA GANGA C.F.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-03-12T20:00"
+        },
+        {
+          "local": "HATHOR C.F",
+          "visitante": "PIN PALS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-03-12T20:00"
+        },
+        {
+          "local": "REPTILIANS F.C.",
+          "visitante": "C.D. MONTEJO",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-03-12T21:00"
+        },
+        {
+          "local": "VERGOSOS C.F",
+          "visitante": "S.S.C. CARBONARA",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-03-12T21:00"
+        },
+        {
+          "local": "PITS",
+          "visitante": "FRENAHAYBACHE F.C.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-03-12T22:00"
+        },
+        {
+          "local": "DRINK TEAM F.C.",
+          "visitante": "PRIDE OF SPARTA",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-03-12T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 19,
+      "fecha": "2027-04-02",
+      "descansa": "PERFUMERIA OSCAR",
+      "partidos": [
+        {
+          "local": "FRENAHAYBACHE F.C.",
+          "visitante": "REPTILIANS F.C.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-04-02T20:00"
+        },
+        {
+          "local": "S.S.C. CARBONARA",
+          "visitante": "DRINK TEAM F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-04-02T20:00"
+        },
+        {
+          "local": "PRIDE OF SPARTA",
+          "visitante": "HATHOR C.F",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-04-02T21:00"
+        },
+        {
+          "local": "PIN PALS",
+          "visitante": "MMCHC FC",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-04-02T21:00"
+        },
+        {
+          "local": "LA GANGA C.F.",
+          "visitante": "PITS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-04-02T22:00"
+        },
+        {
+          "local": "C.D. MONTEJO",
+          "visitante": "VERGOSOS C.F",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-04-02T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 20,
+      "fecha": "2027-04-09",
+      "descansa": "PIN PALS",
+      "partidos": [
+        {
+          "local": "VERGOSOS C.F",
+          "visitante": "FRENAHAYBACHE F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-04-09T20:00"
+        },
+        {
+          "local": "MMCHC FC",
+          "visitante": "PRIDE OF SPARTA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-04-09T20:00"
+        },
+        {
+          "local": "PITS",
+          "visitante": "PERFUMERIA OSCAR",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-04-09T21:00"
+        },
+        {
+          "local": "DRINK TEAM F.C.",
+          "visitante": "C.D. MONTEJO",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-04-09T21:00"
+        },
+        {
+          "local": "REPTILIANS F.C.",
+          "visitante": "LA GANGA C.F.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-04-09T22:00"
+        },
+        {
+          "local": "HATHOR C.F",
+          "visitante": "S.S.C. CARBONARA",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-04-09T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 21,
+      "fecha": "2027-04-16",
+      "descansa": "PITS",
+      "partidos": [
+        {
+          "local": "LA GANGA C.F.",
+          "visitante": "VERGOSOS C.F",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-04-16T20:00"
+        },
+        {
+          "local": "S.S.C. CARBONARA",
+          "visitante": "MMCHC FC",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-04-16T20:00"
+        },
+        {
+          "local": "C.D. MONTEJO",
+          "visitante": "HATHOR C.F",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-04-16T21:00"
+        },
+        {
+          "local": "PRIDE OF SPARTA",
+          "visitante": "PIN PALS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-04-16T21:00"
+        },
+        {
+          "local": "PERFUMERIA OSCAR",
+          "visitante": "REPTILIANS F.C.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-04-16T22:00"
+        },
+        {
+          "local": "FRENAHAYBACHE F.C.",
+          "visitante": "DRINK TEAM F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-04-16T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 22,
+      "fecha": "2027-04-23",
+      "descansa": "PRIDE OF SPARTA",
+      "partidos": [
+        {
+          "local": "REPTILIANS F.C.",
+          "visitante": "PITS",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-04-23T20:00"
+        },
+        {
+          "local": "DRINK TEAM F.C.",
+          "visitante": "LA GANGA C.F.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-04-23T20:00"
+        },
+        {
+          "local": "HATHOR C.F",
+          "visitante": "FRENAHAYBACHE F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-04-23T21:00"
+        },
+        {
+          "local": "PIN PALS",
+          "visitante": "S.S.C. CARBONARA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-04-23T21:00"
+        },
+        {
+          "local": "VERGOSOS C.F",
+          "visitante": "PERFUMERIA OSCAR",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-04-23T22:00"
+        },
+        {
+          "local": "MMCHC FC",
+          "visitante": "C.D. MONTEJO",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-04-23T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 23,
+      "fecha": "2027-05-07",
+      "descansa": "REPTILIANS F.C.",
+      "partidos": [
+        {
+          "local": "PERFUMERIA OSCAR",
+          "visitante": "DRINK TEAM F.C.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-05-07T20:00"
+        },
+        {
+          "local": "FRENAHAYBACHE F.C.",
+          "visitante": "MMCHC FC",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-05-07T20:00"
+        },
+        {
+          "local": "PITS",
+          "visitante": "VERGOSOS C.F",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-05-07T21:00"
+        },
+        {
+          "local": "C.D. MONTEJO",
+          "visitante": "PIN PALS",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-05-07T21:00"
+        },
+        {
+          "local": "LA GANGA C.F.",
+          "visitante": "HATHOR C.F",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-05-07T22:00"
+        },
+        {
+          "local": "S.S.C. CARBONARA",
+          "visitante": "PRIDE OF SPARTA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-05-07T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 24,
+      "fecha": "2027-05-14",
+      "descansa": "S.S.C. CARBONARA",
+      "partidos": [
+        {
+          "local": "HATHOR C.F",
+          "visitante": "PERFUMERIA OSCAR",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-05-14T20:00"
+        },
+        {
+          "local": "MMCHC FC",
+          "visitante": "LA GANGA C.F.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-05-14T20:00"
+        },
+        {
+          "local": "VERGOSOS C.F",
+          "visitante": "REPTILIANS F.C.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-05-14T21:00"
+        },
+        {
+          "local": "DRINK TEAM F.C.",
+          "visitante": "PITS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-05-14T21:00"
+        },
+        {
+          "local": "PIN PALS",
+          "visitante": "FRENAHAYBACHE F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-05-14T22:00"
+        },
+        {
+          "local": "PRIDE OF SPARTA",
+          "visitante": "C.D. MONTEJO",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-05-14T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 25,
+      "fecha": "2027-05-21",
+      "descansa": "VERGOSOS C.F",
+      "partidos": [
+        {
+          "local": "FRENAHAYBACHE F.C.",
+          "visitante": "PRIDE OF SPARTA",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-05-21T20:00"
+        },
+        {
+          "local": "C.D. MONTEJO",
+          "visitante": "S.S.C. CARBONARA",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-05-21T20:00"
+        },
+        {
+          "local": "PITS",
+          "visitante": "HATHOR C.F",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-05-21T21:00"
+        },
+        {
+          "local": "LA GANGA C.F.",
+          "visitante": "PIN PALS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-05-21T21:00"
+        },
+        {
+          "local": "REPTILIANS F.C.",
+          "visitante": "DRINK TEAM F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-05-21T22:00"
+        },
+        {
+          "local": "PERFUMERIA OSCAR",
+          "visitante": "MMCHC FC",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-05-21T22:00"
+        }
+      ]
+    },
+    {
+      "jornada": 26,
+      "fecha": "2027-05-28",
+      "descansa": "C.D. MONTEJO",
+      "partidos": [
+        {
+          "local": "MMCHC FC",
+          "visitante": "PITS",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-05-28T20:00"
+        },
+        {
+          "local": "PIN PALS",
+          "visitante": "PERFUMERIA OSCAR",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-05-28T20:00"
+        },
+        {
+          "local": "HATHOR C.F",
+          "visitante": "REPTILIANS F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-05-28T21:00"
+        },
+        {
+          "local": "PRIDE OF SPARTA",
+          "visitante": "LA GANGA C.F.",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-05-28T21:00"
+        },
+        {
+          "local": "DRINK TEAM F.C.",
+          "visitante": "VERGOSOS C.F",
+          "campo": "OSCAR MOLINA C.-1 (HA)",
+          "fechaHora": "2027-05-28T22:00"
+        },
+        {
+          "local": "S.S.C. CARBONARA",
+          "visitante": "FRENAHAYBACHE F.C.",
+          "campo": "PVO. JOSE CABALLERO CAMPO 2 - 2 (HA)",
+          "fechaHora": "2027-05-28T22:00"
+        }
+      ]
+    }
+  ]
+}
