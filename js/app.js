@@ -1,3 +1,5 @@
+import { db } from "./firebase.js";
+import { collection, getDocs } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 const MI_EQUIPO = "VERGOSOS C.F";
 //
 
@@ -5,6 +7,26 @@ async function cargarCalendario(){
   const respuesta =await fetch ("data/calendario.json");
   const datos = await respuesta.json();
   return datos;
+}
+function idPartido(jornada,partido){
+  return `J${jornada} ${partido.local} vs ${partido.visitante}`;
+}
+async function cargarResultados (){
+  const resultados=[];
+  const consulta = await getDocs(collections(db,"resultados"));
+  consulta.forEach(doc=>{
+    resultados[doc.id]=doc.data();});
+  return resultados;
+}
+function juntarResultados(datos, resultados){
+  for (const jornada of datos.jornadas){
+    for (const partido of jornada.partidos){
+      const resultado = resultado [idPartido(jornada.jornada, partido)];
+      if (resultado){
+        Object.assign(partido,resultado);
+      }
+    }
+  }
 }
 function formatearFecha(fechaHora) {
   const fecha = new Date(fechaHora);
@@ -57,7 +79,10 @@ function pintarCalendario(datos){
       if (!enCasa && !fuera) continue;
       
       const rival = enCasa ? partido.visitante : partido.local;
-      const cuando = partido.aplazado ? "Aplazado" : formatearFecha(partido.fechaHora);
+      const tieneResultado = partido.golesLocal !== undefined;
+      const cuando = tieneResultado
+      ? `${partido.golesLocal} - ${partido.golesVisitante}`
+      : partido.aplazado ? "Aplazado" : formatearFecha(partido.fechaHora);
       const jugado = new Date(partido.fechaHora) < ahora;
      
       html += `
@@ -71,12 +96,81 @@ function pintarCalendario(datos){
   }
 
   lista.innerHTML = html;
-}      
+}     
+function calcularClasificación (datos) {
+  const tabla ={};
+  function filaDe (equipo) {
+    if (!tabla[equipo]){
+      tabla [equipo] = {equipo : equipo, pj:0,pg:0,pe:0,pp:0, gf: 0, gc: 0, puntos: 0 };
+    }
+    return tabla[equipo];
+  }
+  for (const jornada of datos.jornadas){
+    for (const partido of jornada.partidos){
+      const local = filaDe(partido.local);
+      const visitante =filaDe(partido.visitante);
+
+      if(partido.golesLocal === undefined) continue;
+      local.pj++;
+      visitante.pj++;
+      local.gf += partido.golesLocal;
+      local.gc += partido.golesVisitante;
+      visitante.gf += partido.golesVisitante;
+      visitante.gc += partido.golesLocal;
+
+      if (partido.golesLocal> partido.golesVisitante){
+        local.pg++;
+        visitante.pp++;
+        local.puntos +=3;
+        } else if (partido.golesLocal < partido.golesVisitante) {
+        visitante.pg++;
+        local.pp++;
+        visitante.puntos += 3;
+      } else {
+        local.pe++;
+        visitante.pe++;
+        local.puntos += 1;
+        visitante.puntos += 1;
+      }
+    }
+  }
+  const lista = Object.values(tabla);
+  lista.sort((a, b) =>
+    b.puntos - a.puntos ||
+    (b.gf - b.gc) - (a.gf - a.gc) ||
+    b.gf - a.gf
+  );
+  return lista;
+}
+function pintarClasificacion(lista) {
+  const cuerpo = document.getElementById("tabla-clasificacion");
+  let html = "";
+
+  lista.forEach((fila, i) => {
+    const dg = fila.gf - fila.gc;
+    html += `
+      <tr class="${fila.equipo === MI_EQUIPO ? "nosotros" : ""}">
+        <td>${i + 1}</td>
+        <td class="nombre">${fila.equipo}</td>
+        <td>${fila.pj}</td>
+        <td>${fila.pg}</td>
+        <td>${fila.pe}</td>
+        <td>${fila.pp}</td>
+        <td>${dg > 0 ? "+" + dg : dg}</td>
+        <td><strong>${fila.puntos}</strong></td>
+      </tr>`;
+  });
+
+  cuerpo.innerHTML = html;
+}
 async function iniciar() {
   const datos = await cargarCalendario();
+  const resultados = await cargarResultados();
+  juntarResultados(datos,resultados);
   const proximo = buscarProximoPartido(datos);
   pintarProximoPartido(proximo);
   pintarCalendario (datos);
+  pintarClasificacion(calcularClasificacion(datos));
 }
 
 iniciar();
