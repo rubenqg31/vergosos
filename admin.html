@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin · Vergosos C.F.</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Panel de admin</h1>
+    <p>Vergosos C.F.</p>
+  </header>
+
+  <main>
+    <section id="acceso" class="tarjeta">
+      <p id="estado-sesion">Comprobando...</p>
+      <button id="boton-entrar">Entrar con Google</button>
+      <button id="boton-salir" hidden>Salir</button>
+    </section>
+
+    <section id="panel" class="tarjeta" hidden>
+      <h2>Resultados</h2>
+      <label>
+        Jornada:
+        <select id="selector-jornada"></select>
+      </label>
+      <div id="lista-resultados"></div>
+      <button id="boton-guardar">Guardar jornada</button>
+      <p id="mensaje"></p>
+    </section>
+  </main>
+
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>
