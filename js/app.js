@@ -21,7 +21,7 @@ async function cargarResultados (){
 function juntarResultados(datos, resultados){
   for (const jornada of datos.jornadas){
     for (const partido of jornada.partidos){
-      const resultado = resultado [idPartido(jornada.jornada, partido)];
+      const resultado = resultados [idPartido(jornada.jornada, partido)];
       if (resultado){
         Object.assign(partido,resultado);
       }
