@@ -3,7 +3,7 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.12.2/firebas
 import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "TU_API_KEY",
+  apiKey: "AIzaSyBRyPsb1O4rzUUZxJZrDIrC3l7BWlXvdrk",
   authDomain: "vergosos.firebaseapp.com",
   projectId: "vergosos",
   storageBucket: "vergosos.firebasestorage.app",
