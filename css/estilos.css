@@ -1,6 +1,6 @@
 :root {
-  --color-principal: #FFFFFF;   /* cámbialo por el color del equipo */
-  --color-fondo: #551A8B;
+  --color-principal: #551A8B;   /* cámbialo por el color del equipo */
+  --color-fondo: #FFFFFF ;
 }
 
 body {
