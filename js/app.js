@@ -13,7 +13,7 @@ function buscarProximoPartido (datos){
       const juegaVergosos = partido.local === MI_EQUIPO|| partido.visitante === MI_EQUIPO;
       const fecha =new Date (partido.fechaHora);
 
-    if (juegaVergosos && fecha>hora){
+    if (juegaVergosos && fecha> ahora){
       partido.jornada =jornada.jornada;
       futuros.push(partido);
     }
@@ -29,7 +29,7 @@ function pintarProximoPartido(partido){
     return;
   }
   const fecha = new Date(partido.fechaHora);
-  const dia =fech.toLocaleDateString("es-ES",{weekday:"long",day:"numeric", month:"long"});
+  const dia =fecha.toLocaleDateString("es-ES",{weekday:"long",day:"numeric", month:"long"});
   const hora =fecha.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" });
   seccion.innerHTML = `
     <h2>Próximo partido · Jornada ${partido.jornada}</h2>
