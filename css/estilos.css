@@ -1,1 +1,31 @@
+:root {
+  --color-principal: #FFFFFF;   /* cámbialo por el color del equipo */
+  --color-fondo: #551A8B;
+}
 
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--color-fondo);
+}
+
+header {
+  background: var(--color-principal);
+  color: white;
+  text-align: center;
+  padding: 24px 16px;
+}
+
+#proximo-partido {
+  background: white;
+  max-width: 500px;
+  margin: 24px auto;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.rival {
+  font-size: 1.3em;
+  font-weight: bold;
+}
