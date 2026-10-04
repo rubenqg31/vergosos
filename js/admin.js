@@ -7,7 +7,9 @@ let calendario = null;
 // ---------- Entrar y salir ----------
 
 document.getElementById("boton-entrar").addEventListener("click", () => {
-  signInWithPopup(auth, new GoogleAuthProvider());
+  signInWithPopup(auth, new GoogleAuthProvider()).catch((error) => {
+    document.getElementById("estado-sesion").textContent = `❌ No se pudo entrar: ${error.code}`;
+  });
 });
 
 document.getElementById("boton-salir").addEventListener("click", () => {
