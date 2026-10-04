@@ -105,3 +105,48 @@ th {
   color: white;
   font-weight: bold;
 }
+.fila-resultado {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.fila-resultado .equipo {
+  flex: 1;
+  font-size: 0.85em;
+}
+
+.fila-resultado .equipo:last-child {
+  text-align: right;
+}
+
+.fila-resultado input {
+  width: 48px;
+  font-size: 1.1em;
+  text-align: center;
+  padding: 4px;
+}
+
+.nuestro {
+  background: #f3ecfa;
+  font-weight: bold;
+}
+
+button {
+  background: var(--color-principal);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+select {
+  font-size: 1em;
+  padding: 6px;
+  margin: 12px 0;
+}
