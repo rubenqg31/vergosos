@@ -12,8 +12,8 @@ function idPartido(jornada,partido){
   return `J${jornada} ${partido.local} vs ${partido.visitante}`;
 }
 async function cargarResultados (){
-  const resultados=[];
-  const consulta = await getDocs(collections(db,"resultados"));
+  const resultados={};
+  const consulta = await getDocs(collection(db,"resultados"));
   consulta.forEach(doc=>{
     resultados[doc.id]=doc.data();});
   return resultados;
@@ -97,7 +97,7 @@ function pintarCalendario(datos){
 
   lista.innerHTML = html;
 }     
-function calcularClasificación (datos) {
+function calcularClasificacion (datos) {
   const tabla ={};
   function filaDe (equipo) {
     if (!tabla[equipo]){
