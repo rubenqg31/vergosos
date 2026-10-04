@@ -80,3 +80,28 @@ summary {
 details[open] summary {
   margin-bottom: 12px;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85em;
+}
+
+th, td {
+  padding: 8px 4px;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  color: #666;
+  font-weight: normal;
+}
+
+.nombre {
+  text-align: left;
+}
+
+.nosotros {
+  background: var(--color-principal);
+  color: white;
+  font-weight: bold;
+}
