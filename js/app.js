@@ -44,14 +44,14 @@ function pintarProximoPartido(partido){
 }
 function pintarCalendario(datos){
   const lista =document.getElementById("lista-partidos");
-  const ahors =new Date();
+  const ahora =new Date();
   let html ="";
-  for (const jornada of datos.jornada){
+  for (const jornada of datos.jornadas){
     if (jornada.descansa === MI_EQUIPO){
       html += `<li class="descanso"><span class="jornada">J${jornada.jornada}</span> Descansamos</li>`;
       continue;
     }
-    for (const partido of jornada.partido){
+    for (const partido of jornada.partidos){
       const enCasa =partido.local === MI_EQUIPO;
       const fuera =partido.visitante ===MI_EQUIPO;
       if (!enCasa && !fuera) continue;
