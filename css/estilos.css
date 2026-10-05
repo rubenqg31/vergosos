@@ -234,3 +234,6 @@ h2 {
   margin: 0 0 8px;
   color: var(--color-principal);
 }
+main {
+  padding: 0 12px;
+}
