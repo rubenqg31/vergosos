@@ -244,3 +244,38 @@ main {
 td.nombre {
   white-space: nowrap;
 }
+.volver {
+  display: block;
+  max-width: 500px;
+  margin: 16px auto 0;
+  color: var(--color-principal);
+  text-decoration: none;
+  font-weight: bold;
+}
+header {
+  background: linear-gradient(135deg, var(--color-principal), #2e0d4d);
+  border-bottom: 4px solid var(--color-secundario);
+}
+
+.escudo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+header p {
+  margin: 4px 0 0;
+  opacity: 0.85;
+}
+.tarjeta {
+  border-top: 4px solid var(--color-principal);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#proximo-partido {
+  border-top-color: var(--color-secundario);
+}
+
+.nosotros {
+  border-left: 4px solid var(--color-secundario);
+}
