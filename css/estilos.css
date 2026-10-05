@@ -257,10 +257,21 @@ header {
   border-bottom: 4px solid var(--color-secundario);
 }
 
+img {
+  max-width: 100%;
+}
+
 .escudo {
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   object-fit: contain;
+}
+
+@media (min-width: 600px) {
+  .escudo {
+    width: 120px;
+    height: 120px;
+  }
 }
 
 header p {
