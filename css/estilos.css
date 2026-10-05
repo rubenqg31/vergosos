@@ -184,3 +184,35 @@ select {
   display: inline-block;
   margin: 4px 12px 4px 0;
 }
+.boton {
+  display: block;
+  text-align: center;
+  background: var(--color-principal);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.volver {
+  display: inline-block;
+  color: var(--color-principal);
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+
+#lista-jugados {
+  list-style: none;
+  padding: 0;
+}
+
+#lista-jugados li {
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+#lista-jugados p {
+  margin: 4px 0;
+}
