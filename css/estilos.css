@@ -150,3 +150,37 @@ select {
   padding: 6px;
   margin: 12px 0;
 }
+#detalles {
+  text-align: left;
+  margin-top: 16px;
+  padding: 12px;
+  border: 2px solid var(--color-principal);
+  border-radius: 12px;
+}
+
+#detalles h4 {
+  margin: 16px 0 4px;
+}
+
+.fila-detalle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.fila-detalle select {
+  margin: 4px 0;
+}
+
+.quitar {
+  background: #ccc;
+  color: black;
+  padding: 4px 10px;
+  margin: 0;
+}
+
+.casilla {
+  display: inline-block;
+  margin: 4px 12px 4px 0;
+}
