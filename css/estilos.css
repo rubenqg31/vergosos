@@ -1,6 +1,8 @@
 :root {
-  --color-principal: #551A8B;   /* cámbialo por el color del equipo */
-  --color-fondo: #f4f4f4 ;
+  --color-principal: #551A8B;
+  --color-secundario: #111111;
+  --color-fondo: #f4f4f4;
+  --color-suave: #f3ecfa;
 }
 
 body {
@@ -130,7 +132,7 @@ th {
 }
 
 .nuestro {
-  background: #f3ecfa;
+  background: var(--color-suave);
   font-weight: bold;
 }
 
