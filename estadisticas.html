@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estadísticas · Vergosos C.F.</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Estadísticas</h1>
+    <p>Vergosos C.F.</p>
+  </header>
+
+  <main>
+    <a href="index.html" class="volver">← Volver</a>
+
+    <section class="tarjeta">
+      <h2>Jugadores</h2>
+      <table>
+        <thead>
+          <tr>
+            <th class="nombre">Jugador</th>
+            <th>PJ</th><th>⚽</th><th>🅰️</th><th>🟨</th><th>🟥</th><th>⭐</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-estadisticas">
+          <tr><td colspan="7">Cargando...</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Partido a partido</h2>
+      <ul id="lista-jugados"></ul>
+    </section>
+  </main>
+
+  <script type="module" src="js/estadisticas.js"></script>
+</body>
+</html>
