@@ -1,5 +1,5 @@
 import { db, auth } from "./firebase.js";
-import { MI_EQUIPO, idPartido, cargarCalendario } from "./comun.js";
+import { MI_EQUIPO, JUGADORES, idPartido, cargarCalendario } from "./comun.js";
 import { doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 import { GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
@@ -66,6 +66,7 @@ async function pintarJornada() {
   lista.innerHTML = "Cargando...";
 
   let html = "";
+  let detalles ="";
   for (let i = 0; i < jornada.partidos.length; i++) {
     const partido = jornada.partidos[i];
     const guardado = await getDoc(doc(db, "resultados", idPartido(jornada.jornada, partido)));
@@ -80,8 +81,12 @@ async function pintarJornada() {
         <input type="number" min="0" id="visitante-${i}" value="${resultado.golesVisitante ?? ""}">
         <span class="equipo">${partido.visitante}</span>
       </div>`;
+    if(esNuestro){
+      detalles =pintarDetalles(resultado);
+    }
   }
-  lista.innerHTML = html;
+  lista.innerHTML = html + detalles;
+  activarDetalles();
 }
 
 // ---------- Guardar ----------
@@ -101,13 +106,20 @@ async function guardarJornada() {
 
       if (golesLocal === "" || golesVisitante === "") continue;
 
-      await setDoc(doc(db, "resultados", idPartido(jornada.jornada, partido)), {
+        const datosPartido = {
         jornada: jornada.jornada,
         local: partido.local,
         visitante: partido.visitante,
         golesLocal: Number(golesLocal),
         golesVisitante: Number(golesVisitante)
-      }, { merge: true });
+      };
+
+      const esNuestro = partido.local === MI_EQUIPO || partido.visitante === MI_EQUIPO;
+      if (esNuestro) {
+        Object.assign(datosPartido, leerDetalles());
+      }
+
+      await setDoc(doc(db, "resultados", idPartido(jornada.jornada, partido)), datosPartido, { merge: true });
 
       guardados++;
     }
@@ -116,3 +128,115 @@ async function guardarJornada() {
     mensaje.textContent = `❌ No se pudo guardar: ${error.message}`;
   }
 }
+// ---------- Detalles de Vergosos ----------
+
+function opcionesJugadores(elegido, textoVacio) {
+  let html = "";
+  if (textoVacio) {
+    html += `<option value="">${textoVacio}</option>`;
+  }
+  for (const nombre of JUGADORES) {
+    html += `<option value="${nombre}" ${nombre === elegido ? "selected" : ""}>${nombre}</option>`;
+  }
+  return html;
+}
+function filaGol (gol = {}){
+  return `
+     <div class="fila-detalle fila-gol">
+      ⚽ <select class="goleador">${opcionesJugadores(gol.jugador)}</select>
+      🅰️ <select class="asistente">${opcionesJugadores(gol.asistencia, "Sin asistencia")}</select>
+      <button type="button" class="quitar">✕</button>
+    </div>`;
+}
+function filaTarjeta(tarjeta = {}) {
+  return `
+    <div class="fila-detalle fila-tarjeta">
+      <select class="jugador-tarjeta">${opcionesJugadores(tarjeta.jugador)}</select>
+      <select class="tipo-tarjeta">
+        <option value="amarilla" ${tarjeta.tipo === "amarilla" ? "selected" : ""}>🟨 Amarilla</option>
+        <option value="roja" ${tarjeta.tipo === "roja" ? "selected" : ""}>🟥 Roja</option>
+      </select>
+      <button type="button" class="quitar">✕</button>
+    </div>`;
+}
+function pintarDetalles (resultado) {
+  const jugaron = resultado.jugaron ?? [];
+  let casillas = "";
+  for (const nombre of JUGADORES){
+    casillas += `
+      <label class="casilla">
+        <input type="checkbox" value="${nombre}" ${jugaron.includes(nombre) ? "checked" : ""}> ${nombre}
+      </label>`;
+  }
+let goles ="";
+  for (const gol of resultado.goles ?? []){
+    goles += filaGol(gol);
+  }
+  let tarjetas ="";
+  for (const tarjeta of resultado.tarjetas ?? []) {
+    tarjetas += filaTarjeta(tarjeta);
+  }
+    return `
+    <div id="detalles">
+      <h3>Detalles de Vergosos</h3>
+
+      <h4>¿Quién jugó?</h4>
+      <div id="lista-jugaron">${casillas}</div>
+
+      <h4>Goles</h4>
+      <div id="lista-goles">${goles}</div>
+      <button type="button" id="anadir-gol">+ Añadir gol</button>
+
+      <h4>Tarjetas</h4>
+      <div id="lista-tarjetas">${tarjetas}</div>
+      <button type="button" id="anadir-tarjeta">+ Añadir tarjeta</button>
+
+      <h4>MVP</h4>
+      <select id="mvp">${opcionesJugadores(resultado.mvp, "Nadie")}</select>
+    </div>`;
+}
+function activarDetalles() {
+  const detalles = document.getElementById("detalles");
+  if (!detalles) return;
+
+  document.getElementById("anadir-gol").addEventListener("click", () => {
+    document.getElementById("lista-goles").insertAdjacentHTML("beforeend", filaGol());
+  });
+
+  document.getElementById("anadir-tarjeta").addEventListener("click", () => {
+    document.getElementById("lista-tarjetas").insertAdjacentHTML("beforeend", filaTarjeta());
+  });
+
+  detalles.addEventListener("click", (evento) => {
+    if (evento.target.classList.contains("quitar")) {
+      evento.target.parentElement.remove();
+    }
+  });
+}
+function leerDetalles() {
+  const goles = [];
+  for (const fila of document.querySelectorAll(".fila-gol")) {
+    goles.push({
+      jugador: fila.querySelector(".goleador").value,
+      asistencia: fila.querySelector(".asistente").value || null
+    });
+  }
+
+  const tarjetas = [];
+  for (const fila of document.querySelectorAll(".fila-tarjeta")) {
+    tarjetas.push({
+      jugador: fila.querySelector(".jugador-tarjeta").value,
+      tipo: fila.querySelector(".tipo-tarjeta").value
+    });
+  }
+
+  const jugaron = [];
+  for (const casilla of document.querySelectorAll("#lista-jugaron input:checked")) {
+    jugaron.push(casilla.value);
+  }
+
+  const mvp = document.getElementById("mvp").value || null;
+
+  return { goles, tarjetas, jugaron, mvp };
+}  
+
