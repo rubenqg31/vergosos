@@ -40,7 +40,6 @@ onAuthStateChanged(auth, async (usuario) => {
   }
 });
 // ---------- Elegir jornada ----------
-
 function prepararSelector() {
   const selector = document.getElementById("selector-jornada");
   let html = "";
