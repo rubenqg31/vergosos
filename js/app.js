@@ -1,24 +1,7 @@
-import { db } from "./firebase.js";
-import { collection, getDocs } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { MI_EQUIPO, idPartido, cargarCalendario } from "./comun.js";
+
+import { MI_EQUIPO, cargarCalendario,cargarResultados,juntarResultados } from "./comun.js";
 //
-async function cargarResultados (){
-  const resultados={};
-  const consulta = await getDocs(collection(db,"resultados"));
-  consulta.forEach(doc=>{
-    resultados[doc.id]=doc.data();});
-  return resultados;
-}
-function juntarResultados(datos, resultados){
-  for (const jornada of datos.jornadas){
-    for (const partido of jornada.partidos){
-      const resultado = resultados [idPartido(jornada.jornada, partido)];
-      if (resultado){
-        Object.assign(partido,resultado);
-      }
-    }
-  }
-}
+
 function formatearFecha(fechaHora) {
   const fecha = new Date(fechaHora);
   const dia = fecha.toLocaleDateString("es-ES", { weekday: "short", day: "numeric", month: "short" });
