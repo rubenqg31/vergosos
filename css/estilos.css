@@ -237,3 +237,10 @@ h2 {
 main {
   padding: 0 12px;
 }
+.tabla-scroll {
+  overflow-x: auto;
+}
+
+td.nombre {
+  white-space: nowrap;
+}
