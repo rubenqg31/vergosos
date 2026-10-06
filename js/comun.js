@@ -4,7 +4,7 @@ import { collection, getDocs } from "https://www.gstatic.com/firebasejs/10.12.2/
 export const MI_EQUIPO = "VERGOSOS C.F";
 export const JUGADORES = [ "Rubén", 
                           "Varopa" , 
-                          "Alex", 
+                          "Alex Inés", 
                           "Dani", 
                           "Beto", 
                           "Manu",
