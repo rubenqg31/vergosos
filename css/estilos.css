@@ -290,3 +290,83 @@ header p {
 .nosotros {
   border-left: 4px solid var(--color-secundario);
 }
+
+/* Colores de resultado (G gana, E empata, P pierde, A aplazado) */
+.G { background: #2e8b57; }
+.E { background: #9a948f; }
+.P { background: #c8362f; }
+.A { background: #e4e0e8; color: #6b6472 !important; }
+
+/* Rachas en el próximo partido */
+.rachas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+.mitad { min-width: 0; padding: 0 6px; }
+.mitad + .mitad { border-left: 1px solid #eee; }
+.mitad h3 {
+  font-family: "Bebas Neue", system-ui, sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #666;
+  margin: 0 0 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bolas { display: flex; flex-direction: column; gap: 3px; }
+.bola { display: flex; align-items: center; gap: 6px; height: 20px; min-width: 0; text-align: left; }
+.circulo {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 0.62em;
+}
+.circulo.hueco { background: #e4e0e8; color: #888; }
+.marcador { flex: none; width: 2.4em; font-weight: bold; font-size: 0.75em; }
+.contra {
+  min-width: 0;
+  font-size: 0.72em;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Historial en la clasificación */
+tr.equipo { cursor: pointer; }
+tr.equipo:focus-visible { outline: 2px solid var(--color-principal); outline-offset: -2px; }
+.flecha { display: inline-block; width: 11px; color: #999; transition: transform 0.15s; }
+tr.abierto .flecha { transform: rotate(90deg); }
+.nosotros .flecha { color: white; }
+tr.historial td { background: var(--color-suave); padding: 6px 8px; text-align: left; }
+.peques {
+  width: 0;
+  min-width: 100%;
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+}
+.peque {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: white;
+  border-radius: 6px;
+  padding: 3px 7px 3px 3px;
+  font-size: 0.78em;
+  white-space: nowrap;
+}
+.peque .res { padding: 1px 6px; border-radius: 4px; color: white; font-weight: bold; }
+.peque .j { color: var(--color-principal); font-weight: bold; }
+.peque .lc { color: #888; }
